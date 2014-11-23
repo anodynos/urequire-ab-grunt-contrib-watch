@@ -1,0 +1,51 @@
+{
+  "name": "urequire-ab-grunt-contrib-watch",
+  "description": "Automagically run `grunt-contib-watch` task of a uRequire config.",
+  "version": "0.0.1",
+  "homepage": "https://github.com/anodynos/urequire-ab-grunt-contrib-watch",
+  "author": {
+    "name": "Agelos Pikoulas",
+    "email": "agelos.pikoulas@gmail.com"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/mit-license.php"
+    }
+  ],
+  "keywords": [
+    "urequire",
+    "grunt",
+    "afterBuild",
+    "watch",
+    "grunt-contrib-watch",
+    "automatic"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/anodynos/urequire-ab-grunt-contrib-watch"
+  },
+  "bugs": {
+    "url": "git://github.com/anodynos/urequire-ab-grunt-contrib-watch/issues",
+    "email": "agelos.pikoulas@gmail.com"
+  },
+  "main": "./build/code/urequire-ab-grunt-contrib-watch.js",
+  "engines": {
+    "node": ">=0.10"
+  },
+  "scripts": {
+    "build": "coffee -cb -o build/code source/code",
+    "watch": "coffee -cbw -o build/code source/code",
+    "test": "echo 'Check git://github.com/anodynos/urequire-example'"
+  },
+  "peerDependencies": {
+    "urequire": "^0.7.0-beta.11",
+    "grunt-urequire": "^0.7.0",
+    "grunt": "^0.4.5"
+  },
+  "dependencies": {
+    "uberscore": "0.0.17",
+    "underscore.string": "^2.3.3",
+    "semver": "^4.1.0"
+  }
+}
