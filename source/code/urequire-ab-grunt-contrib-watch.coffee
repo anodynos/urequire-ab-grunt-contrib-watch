@@ -1,4 +1,4 @@
-minUrequireVersion = "0.7.0-beta.11"
+minUrequireVersion = "0.7.0-beta.15"
 _ = (_B = require 'uberscore')._
 l = new _B.Logger 'urequire-ab-grunt-contrib-watch'
 _.mixin (require 'underscore.string').exports()

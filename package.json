@@ -1,7 +1,7 @@
 {
   "name": "urequire-ab-grunt-contrib-watch",
   "description": "Automagically run `grunt-contib-watch` task of a uRequire config.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "homepage": "https://github.com/anodynos/urequire-ab-grunt-contrib-watch",
   "author": {
     "name": "Agelos Pikoulas",
@@ -39,8 +39,8 @@
     "test": "echo 'Check git://github.com/anodynos/urequire-example'"
   },
   "peerDependencies": {
-    "urequire": "^0.7.0-beta.11",
-    "grunt-urequire": "^0.7.0",
+    "urequire": "^0.7.0-beta.15",
+    "grunt-urequire": "^0.7.2",
     "grunt": "^0.4.5"
   },
   "dependencies": {
