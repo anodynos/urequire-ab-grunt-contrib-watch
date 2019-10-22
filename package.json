@@ -45,7 +45,7 @@
   },
   "dependencies": {
     "uberscore": "0.0.17",
-    "underscore.string": "^2.3.3",
+    "underscore.string": "^3.3.5",
     "semver": "^4.1.0"
   }
 }
